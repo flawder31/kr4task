@@ -1,0 +1,120 @@
+{
+  "id": "react-roadmap-2024",
+  "title": "Дорожная карта изучения React",
+  "description": "Полный путь от основ до продвинутых концепций React",
+  "createdAt": "2024-01-01",
+  "items": [
+    {
+      "id": "1",
+      "title": "Основы JavaScript и ES6+",
+      "description": "Синтаксис, функции, стрелочные функции, деструктуризация, промисы, async/await",
+      "links": [
+        {
+          "title": "Современный учебник JavaScript",
+          "url": "https://learn.javascript.ru/"
+        }
+      ],
+      "status": "not-started",
+      "userNotes": "",
+      "dueDate": null
+    },
+    {
+      "id": "2",
+      "title": "Основы React: JSX и компоненты",
+      "description": "Понимание JSX, создание функциональных и классовых компонентов, props",
+      "links": [
+        {
+          "title": "Официальная документация React",
+          "url": "https://react.dev/learn"
+        }
+      ],
+      "status": "not-started",
+      "userNotes": "",
+      "dueDate": null
+    },
+    {
+      "id": "3",
+      "title": "Состояние (State) и хуки",
+      "description": "useState, useEffect, useContext, создание кастомных хуков",
+      "links": [
+        {
+          "title": "Хуки в React",
+          "url": "https://react.dev/reference/react/hooks"
+        }
+      ],
+      "status": "in-progress",
+      "userNotes": "Изучил useState и useEffect. Нужно попрактиковаться с useContext.",
+      "dueDate": "2024-03-15"
+    },
+    {
+      "id": "4",
+      "title": "Управление состоянием приложения",
+      "description": "Redux, Context API, Zustand, управление сложным состоянием",
+      "links": [
+        {
+          "title": "Redux Toolkit",
+          "url": "https://redux-toolkit.js.org/"
+        }
+      ],
+      "status": "not-started",
+      "userNotes": "",
+      "dueDate": null
+    },
+    {
+      "id": "5",
+      "title": "Маршрутизация (React Router)",
+      "description": "Настройка маршрутов, навигация, защищенные маршруты",
+      "links": [
+        {
+          "title": "React Router документация",
+          "url": "https://reactrouter.com/"
+        }
+      ],
+      "status": "completed",
+      "userNotes": "Полностью освоил маршрутизацию. Создал пример SPA с вложенными маршрутами.",
+      "dueDate": "2024-02-20"
+    },
+    {
+      "id": "6",
+      "title": "Работа с API и HTTP-запросы",
+      "description": "Fetch API, Axios, обработка ошибок, кеширование",
+      "links": [
+        {
+          "title": "Fetch API",
+          "url": "https://developer.mozilla.org/ru/docs/Web/API/Fetch_API"
+        }
+      ],
+      "status": "in-progress",
+      "userNotes": "Изучаю Axios для более удобной работы с запросами.",
+      "dueDate": "2024-03-25"
+    },
+    {
+      "id": "7",
+      "title": "Тестирование",
+      "description": "Jest, React Testing Library, unit и интеграционные тесты",
+      "links": [
+        {
+          "title": "Testing Library для React",
+          "url": "https://testing-library.com/docs/react-testing-library/intro/"
+        }
+      ],
+      "status": "not-started",
+      "userNotes": "",
+      "dueDate": null
+    },
+    {
+      "id": "8",
+      "title": "Оптимизация производительности",
+      "description": "Memo, useMemo, useCallback, ленивая загрузка, анализ производительности",
+      "links": [
+        {
+          "title": "Оптимизация производительности React",
+          "url": "https://react.dev/learn/performance"
+        }
+      ],
+      "status": "not-started",
+      "userNotes": "",
+      "dueDate": null
+    }
+  ]
+}
